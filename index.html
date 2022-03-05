@@ -1,0 +1,218 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="cv.css" />
+    <script>
+  
+      function generateRandomColor() {
+        let maxVal = 0xffffff;
+        let randomNumber = Math.random() * maxVal;
+        randomNumber = Math.floor(randomNumber);
+        randomNumber = randomNumber.toString(16);
+        let randColor = randomNumber.padStart(6, 0);
+        return `#${randColor.toUpperCase()}`;
+      }
+
+      const changePageColor = () => {
+        document.documentElement.style.setProperty(
+          "--initial",
+          `${generateRandomColor()}`
+        );
+      };
+    </script>
+    <title>CV-Challenge</title>
+  </head>
+  <body>
+    <div class="content">
+      < 
+      <div class="right-side-part">
+        <div class="introduction">
+          <h1 onclick="changePageColor()">Mwizera Amen Gisele</h1>
+          <h3>IT Project Manager</h3>
+
+          <div class="find-me">
+            <div class="first-row">
+              <span class="phone">
+                <span class="icon">
+                  <i class="fa-solid fa-phone"></i>
+                </span>
+                <p>774-987-4009</p>
+              </span>
+              <span class="linkedIn">
+                <span class="icon">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </span>
+                <p>linkedin.com/johnutw</p>
+              </span>
+            </div>
+            <div class="second-row">
+              <span class="email">
+                <span class="icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </span>
+                <p>j.smith@uptowork.com</p>
+              </span>
+              <span class="twitter">
+                <span class="icon">
+                  <i class="fa-brands fa-twitter"></i>
+                </span>
+                <p>johnsimithutw</p>
+              </span>
+            </div>
+          </div>
+          <div class="bio">
+            <p>
+              IT Professional with over <b>10 years </b>of experience
+              specializing in <b>IT department management </b>for international
+              logistics companies. I can implement effective
+              <b>IT strategies </b>at local and global levels. My greatest
+              strength is business awareness, which enables me to permanently
+              streamline infrastructure and applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="details experience">
+          <span class="heading">
+            <div class="icon">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h1>Experience</h1>
+          </span>
+
+          <div class="content-wrapper">
+            <h3>Senior Project Manager</h3>
+            <p>Seton Hosptital, ME</p>
+            <ul>
+              <li>
+                Oversaw all major hospital IT projects for 10 years, focus on
+                cost reduction
+              </li>
+              <li>
+                Responsible for creating. improving, and developing IT project
+                strategies.
+              </li>
+              <li>
+                Implemented the highly successful Lean Training and Six Sigma
+                projects for all employees.
+              </li>
+              <li>Reduced the costs of IT infrastructure maintenance by 5%.</li>
+            </ul>
+          </div>
+
+          <div class="content-wrapper">
+            <h3>Junior Project Manager</h3>
+            <p>Seton Hosptital, ME</p>
+            <ul>
+              <li>
+                Streamlined IT logistics and administration operation cutting
+                costs by 25%
+              </li>
+              <li>
+                Diagnosed problems with hardware and operating systems and
+                implemented new solutions.
+              </li>
+              <li>
+                Managed project for lean training for all IT Support. Officers
+              </li>
+              <li>Reduced the costs of IT infrastructure maintenance by 5%.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="details Education">
+          <span class="heading">
+            <div class="icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+
+            <h1>Education</h1>
+          </span>
+
+          <div class="content-wrapper">
+            <h3>BS/MS in Computer Science, University of Maryland</h3>
+
+            <ul>
+              <li>Graduated Summa Cum Laurie</li>
+              <li>Member of Student Association of Computer Science</li>
+              <li>
+                Managed a student project to organize a conference for 50
+                professionals.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="details Skills">
+          <span class="heading">
+            <div class="icon">
+              <i class="fa-solid fa-puzzle-piece"></i>
+            </div>
+            <h1>Skills</h1>
+          </span>
+
+          <div class="content-wrapper">
+            <p>
+              <span class="stressed">Business Process Improvement</span>
+              history of successful innovations leading to cost savings.
+            </p>
+            <p>
+              <span class="stressed">Vendor Management</span> managing vendors
+              in projects with budget over $1'000'000.
+            </p>
+            <p>
+              <span class="stressed">Project Scheduling</span> over 90% of
+              projects led were finished in due time.
+            </p>
+            <p>
+              <span class="stressed">Sales Analysis </span>background in IT
+              Sales with deep understanding of negotiating contracts.
+            </p>
+          </div>
+        </div>
+
+        <div class="details Software">
+          <span class="heading">
+            <div class="icon">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <h1>Software</h1>
+          </span>
+
+          <div class="content-wrapper">
+            <ul>
+              <li>Microsoft Project, MS Windows Server, Linux/Unix</li>
+              <li>MS Windows Server</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="details Certification">
+          <span class="heading">
+            <div class="icon">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <h1>Certification</h1>
+          </span>
+
+          <div class="content-wrapper">
+            <ul>
+              <li>PMP - Project Management Institute</li>
+              <li>PRINCE2® Foundation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
