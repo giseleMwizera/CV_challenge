@@ -141,7 +141,7 @@ i {
   position: absolute;
   /* top: 0.01rem; */
   align-items: center;
-  left: 1.02rem;
+  left: 0.6rem;
   background-color: var(--initial);
   border-radius: 50%;
 }
@@ -175,4 +175,14 @@ i {
 
 .proficiency .level .not-filled {
   background-color: lavender;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  height: 160%;
+  width: 2px;
+  left: 26em;
+  z-index: -20;
+  margin-top: 20px;
+  background-color: rgb(199, 199, 199);
 }
