@@ -1,3 +1,3 @@
 # CV_challenge
 
-Solved the offered cv challenge
+Solved the given cv challenge
