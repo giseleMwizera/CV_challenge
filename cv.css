@@ -181,8 +181,8 @@ i {
   position: absolute;
   height: 160%;
   width: 2px;
-  left: 26em;
+  margin-left: 0.92%;
   z-index: -20;
   margin-top: 20px;
-  background-color: rgb(199, 199, 199);
+  background-color: var(--initial);
 }
