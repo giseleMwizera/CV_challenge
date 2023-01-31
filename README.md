@@ -1,3 +1,3 @@
 # CV_challenge
 
-Solved the given cv challenge
+Had to implement the given CV design in ATLP cohort 8
